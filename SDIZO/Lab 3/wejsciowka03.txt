@@ -1,0 +1,14 @@
+- Drzewa podstawowe pojêcia, np.: 
+	- wysokoœæ drzewa, 
+	- stopieñ wêz³a, 
+	- stopieñ drzewa, 
+	- drzewo dok³adnie wywa¿one,
+	- drzewo binarne,
+	- Jaka jest maksymalna liczba wêz³ów drzewa binarnego o wysokoœci h?
+- Drzewo BST, np.:
+	- Jak wystêpuj¹ zale¿noœci pomiêdzy kluczami lewego i prawego potomka w drzewie BS?
+	- Wypisywanie drzewa: prorder (przeszukiwanie wzd³u¿ne), inorder (poprzeczne), postorder (przeszukiwanie wsteczne)
+	- Wstawianie elementu do BST – krok po kroku
+	- Usuwanie elementu z BST – krok po kroku
+	- Co to jest poprzednik? Nastêpnik?
+

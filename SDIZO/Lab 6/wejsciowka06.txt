@@ -1,0 +1,7 @@
+Kopiec sprzê¿ony
+- podstawowe pojêcia dotycz¹ce kopców;
+- co to jest kopiec binarny
+- pojêcie "kuzyna"
+- wyszukiwanie wêz³a o numerze n w kopcu
+- wstawianie, usuwanie minimum i maksimum - na przyk³adzie
+

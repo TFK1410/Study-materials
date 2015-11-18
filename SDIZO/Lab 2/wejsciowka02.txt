@@ -1,0 +1,4 @@
+- stos
+- kolejka
+- lista liniowa, dwukierunkowa
+- lista cykliczna, niecykliczna 

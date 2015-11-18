@@ -1,0 +1,13 @@
+- Wywa¿anie drzewa BST za pomoc¹ algorytmu DSW (faza 1 i 2)
+-- obliczanie parametru m
+- wzór na obliczanie minimalnej liczby poziomów (wysokoœci) dla drzewa binarnego posiadaj¹cego N wêz³ów
+
+m=1;
+while (m<=N)
+	m=2*m+1;
+m=m/2;
+
+m=2^((int)log2(N+1))-1
+
+min. liczba poziomow: h>=log2(N+1)
+

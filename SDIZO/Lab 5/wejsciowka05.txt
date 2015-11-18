@@ -1,0 +1,31 @@
+Drzewa samoorganizuj¹ce (rozchylane) - splay trees;
+- co to jest operacja splay;
+- co to jest konfiguracja jednorodna („zig-zig”)
+- co to jest konfiguracja niejednorodna („zig-zag”)
+- wstawianie, usuwanie, wyszukiwanie elementów - na przyk³adzie
+
+WYK£AD 5 OD STRONY 19 DO 26
+
+Drzewo samoorganizujace polega na dostawieniu do kazdego wezla w drzewie
+licznika odwiedzin int visit_count. Na podstawie jego wartosci trzeba
+drzewo tak ukladac zeby wezly najczesciej odwiedzane znalazly sie w korzeniu
+drzewa, by dostep do nich byl najszybszy, lecz przy tym operacje
+przemieszczania wezlow tez nie moga zabierac zbyt wiele czasu.
+Sa one najbardziej przydatne w implementacji pamieci cache i algorytmow
+odsmiecania.
+
+Operacja splay jest nieodzowna dla drzewa rozchylanego. Powoduje ona
+przerzucenie wezla x tak, znajdzie sie on w korzeniu drzewa, lecz zostaje
+zachowana struktura porzadku charakterystyczna dla drzewa BST.
+W naszym przypadku, przy uzyciu tej operacji, kazdy nowo wstawiany lub
+wyszukiwany element bedzie automatycznie przenoszony na korzen drzewa
+Nie bedziemy korzystac z int visit_count.
+
+Zig-zig a zig-zag:
+jezeli relacja dziadek->rodzic->promowany_potomek to prawo prawo (lewo lewo)
+to zig-zig jezeli jest ona prawo lewo (lewo prawo) to zig-zag.
+Przy zig-zig rotujemy rodzica a pozniej promowanego potomka,
+przy zig-zag bohaterem obu rotacji jest promowany potomek.
+
+Zig-zig oraz zig-zag sa wykorzystywane gdy poziom wezla jest wiekszy niz 2,
+gdyz jezeli poziom jest rowny 2 to zostaje do wykonania tylko jedna rotacja.
